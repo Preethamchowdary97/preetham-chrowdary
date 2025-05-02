@@ -17,10 +17,10 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-blue-50 to-sky-100">
       <Navbar />
-      <main className="md:pl-16 pt-16 md:pt-0">
-        <div className="container mx-auto px-4">
+      <main className="md:pl-24 pt-16 md:pt-0 transition-all duration-300">
+        <div className="container mx-auto px-4 max-w-6xl">
           <HomeSection />
           <AboutSection />
           <EducationSection />
